@@ -157,6 +157,69 @@ body {
 /* about section 2 ends */
 
 
+/* Footer Section */
+
+.footer .grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    height: 100%;
+  }
+
+.footer .container {
+    max-width: 95%;
+  }
+
+footer{
+    position: relative;
+    background-color: rgba(70, 139, 91, .27);
+    padding: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2em;
+    font-size: rem;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer li{
+    display: inline-block;
+}
+
+
+footer .container .col a {
+    color: black;
+}
+
+footer i{
+    margin: 0 1rem 0 0;
+}
+
+.col{
+    height: 100%;
+}
+
+.row{
+    width: 100%;
+}
+
+.plantaeBottom{
+    position: absolute;
+    right: 0;
+    bottom: 2rem;
+}
+
+footer p{
+    opacity: 20%;
+}
+
+/* Footer Section Ends */
+
 /* Media Queries */
 
 @media only screen and (max-width: 1200px) {

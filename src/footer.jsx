@@ -3,6 +3,7 @@ import React from "react";
 
 function Footer(){
     return (
+        <section id="footer" className="footer">
         <footer>
         <div className="container">
         <div className="grid row">
@@ -31,10 +32,10 @@ function Footer(){
                 <a href="#"><i class="fab fa-github fa-2x"></i></a>
                 <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
                 <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>    
-                        
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+
         </div>
-        
+
         </div>
         <img className="plantaeBottom" src="./Images/Group 66.png" alt="..."/>
 
@@ -42,8 +43,9 @@ function Footer(){
             <p>Copyright &copy; 2021 Plantae</p>
         </div>
         </div>
-        
-        </footer> 
+
+        </footer>
+        </section>
     );
 }
 
