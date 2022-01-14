@@ -1,8 +1,11 @@
 import React from 'react';
+import Navbar from './Navbar'
+
 
 function Aboutsec1() {
   return (
     <section id="about" className="about">
+      <Navbar />
       <div className="aboutSec1 flex">
         <h1 className="title">
           <span className="title-1">Plan</span><span className="title-2">tae.</span>
