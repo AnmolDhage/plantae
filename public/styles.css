@@ -156,6 +156,56 @@ body {
 
 /* about section 2 ends */
 
+/* Type card component div starts */
+.TypeCard {
+  margin: 25px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px  rgba(0,0,0,0.25);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.TypeCardList{
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+.TypeCardImage{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+ }
+.TypeCardHeading{
+    text-align: center;
+    font-weight: bold;
+}
+.TypeCardContent{
+    text-align: justify ;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+.TypeCardContentP{
+  text-align: center;
+  
+}
+.TypeCardMainHeading{
+  text-align: center;
+  font-weight: bolder;
+}
+.TypeCardSubHeadingh1{
+  text-align: center;
+  font-weight: lighter;
+  font-size:larger ;
+  margin: top 0px;
+}
+.TypeCardSubHeading{
+  margin: top 3px;
+}
+/* Type card component div ends */
 
 /* FAQ */
 
