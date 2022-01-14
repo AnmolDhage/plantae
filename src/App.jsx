@@ -1,18 +1,13 @@
 import React from 'react';
-import './index.css';
-import Accordian from './Components/acoordian/FrequentlyAskedQuestions.jsx'
-import Quote from './Components/Quote.jsx'
-import Search from './Components/Search.jsx'
 import About from './About/About.jsx';
-import Footer from './footer';
+import Footer from './About/Footer.jsx';
+import Faq from './About/Faq.jsx'
 
 function App() {
   return (
     <div>
     <About />
-    <Accordian />
-    <Quote />
-    <Search />
+    <Faq />
     <Footer />
     </div>
 );

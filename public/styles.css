@@ -157,7 +157,117 @@ body {
 /* about section 2 ends */
 
 
+/* FAQ */
+
+.container-faq {
+  margin: 2rem auto;
+  padding: 0 10%;
+  max-width: 80vw;
+}
+
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+.question-item {
+  display: flex;
+  align-items: center;
+  line-height: 1.25rem;
+  cursor: pointer;
+  margin: 1rem auto;
+}
+
+.question-item .paraFont {
+  font-weight: 500;
+}
+
+.answer-item {
+  line-height: 1.5rem;
+}
+
+
+
+
+
+/* FAQ */
+
+/* Quote */
+
+.quote-main-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2% 20%;
+}
+
+.quote-content {
+  font-weight: lighter;
+  text-align: center;
+}
+
+/* Quote ends */
+
+/* Search */
+
+.search-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem;
+}
+
+.search-content .subHeader, .search-content .paraFont {
+  margin-bottom: 1.5vh;
+}
+
+.search-content p {
+  font-weight: light;
+}
+
+.search-input {
+  width: 80%;
+  display: flex;
+}
+
+.searchBar{
+  width: 100%;
+  padding: 10px;
+  height: 25px;
+  border-radius: 0;
+  border-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.searchBar:focus{
+  color: #468B5B;
+  outline: none;
+}
+
+.searchButton {
+  width: 99px;
+  height: 50px;
+  border: 1px solid #468B5B;
+  background: #468B5B;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Search ends */
+
+
+
 /* Footer Section */
+.footer {
+  margin: 5% auto 0;
+}
 
 .footer .grid{
     display: grid;
@@ -166,17 +276,12 @@ body {
     height: 100%;
   }
 
-.footer .container {
-    max-width: 95%;
-  }
-
-footer{
+footer {
     position: relative;
     background-color: rgba(70, 139, 91, .27);
     padding: 5rem;
     font-family: 'Montserrat', sans-serif;
     line-height: 2em;
-    font-size: rem;
 }
 
 footer ul{

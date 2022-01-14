@@ -1,5 +1,5 @@
 import React , { useState } from "react";
-import { questions } from "./Questions";
+import { questions } from "./Questions.jsx";
 
 
 function Accordian() {
@@ -17,15 +17,15 @@ function Accordian() {
   }
 
   return <div className="container-faq">
-           <h1 className="FAQ">Frequently Asked Questions</h1>
+           <h1 className="FAQ subHeader">Frequently Asked Questions</h1>
            {
              data.map((qa, index) => {
                return <>
                <div className="question-item" onClick={() => toggle(index)} key={index}>
                  <span>{clicked === index ? <i className="fa fa-minus" aria-hidden="true"></i> : <i className="fa fa-plus" aria-hidden="true"></i>} </span>
-                 <h2>{qa.question}</h2>
+                 <h2 className="paraFont">{qa.question}</h2>
                </div>
-               {clicked === index ? (<p className="answer-item">{qa.answer}</p>) : null}
+               {clicked === index ? (<p className="answer-item paraFont">{qa.answer}</p>) : null}
                </>;
              })
            }
