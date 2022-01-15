@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -6,12 +7,12 @@ function Navbar() {
       <nav>
         <ul id="primary-navigation" className="primary-navigation nav-flex">
           <li className="active">
-            <a href="index.html">
-              About
+            <a>
+              <Link to="/">About</Link>
             </a></li>
           <li >
-            <a href="#">
-              Store
+            <a>
+              <Link to="/store">Store</Link>
             </a></li>
           <li>
             <a href="#">

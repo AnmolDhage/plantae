@@ -27,10 +27,6 @@
 
 /* Utility Classes */
 
-.container {
-  margin: 5% auto 0;
-  width: 95%;
-}
 
 .flex {
   align-items: center;
@@ -200,6 +196,8 @@ ul {
 .AboutAllPlantCards{
   display: flex;
   justify-content: center;
+  margin: 5% auto 0;
+  width: 95%;
 }
 
 
@@ -290,6 +288,19 @@ ul {
     opacity: 0;
     transform:translateY(50%);
   }
+
+/*Carousel Start*/
+.carousel-indicators {
+  opacity: 0;
+}
+.carousel-control-prev-icon{
+  display: none;
+}
+
+.carousel-control-next-icon{
+  display: none;
+}
+/*Carousel Ends*/
 
 
   /* Plant card Ends */
