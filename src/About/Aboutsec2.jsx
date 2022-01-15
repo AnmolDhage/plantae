@@ -19,51 +19,59 @@ function Aboutsec2() {
         </div>
 
         <div className="grid grid-4">
-          <img className="sec2gridi" src="./Images/sec2_1.png" alt=""/>
-          <img className="sec2gridi" src="./Images/sec2_2.png" alt=""/>
-          <img className="sec2gridi" src="./Images/sec2_3.png" alt=""/>
-          <img className="sec2gridi" src="./Images/sec2_4.png" alt=""/>
-          <div className="sec2gridc">
+          <div>
+            <img className="sec2gridi" src="./Images/sec2_1.png" alt=""/>
+            <div className="sec2gridc">
+                <div className="">
+                <h3 className="paraFont">
+                  <b>Largest Online Nursery</b>
+                </h3>
+                <p className="paraFont">
+                  1.2 Million plant lovers<br /> connected with us
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img className="sec2gridi" src="./Images/sec2_2.png" alt=""/>
+            <div className="sec2gridc">
               <div className="">
-              <h3 className="paraFont">
-                <b>Largest Online Nursery</b>
-              </h3>
-              <p className="paraFont">
-                1.2 Million plant lovers<br /> connected with us
-              </p>
+                <h3 className="paraFont">
+                  <b>All India Delivery</b>
+                </h3>
+                <p className="paraFont">
+                  Delivering greenery<br /> across India
+                </p>
+              </div>
             </div>
           </div>
 
-          <div className="sec2gridc">
-            <div className="">
-              <h3 className="paraFont">
-                <b>All India Delivery</b>
-              </h3>
-              <p className="paraFont">
-                Delivering greenery<br /> across India
-              </p>
+          <div>
+            <img className="sec2gridi" src="./Images/sec2_3.png" alt=""/>
+            <div className="sec2gridc">
+              <div className="">
+                <h3 className="paraFont">
+                  <b>Secure Shipping</b>
+                </h3>
+                <p className="paraFont">
+                  Diligent care taken to<br /> deliver healthy plants
+                </p>
+              </div>
             </div>
           </div>
 
-          <div className="sec2gridc">
-            <div className="">
-              <h3 className="paraFont">
-                <b>Secure Shipping</b>
-              </h3>
-              <p className="paraFont">
-                Diligent care taken to<br /> deliver healthy plants
-              </p>
-            </div>
-          </div>
-
-          <div className="sec2gridc">
-            <div className="">
-              <h3 className="paraFont">
-                <b>Lifetime Support</b>
-              </h3>
-              <p className="paraFont">
-                We help you grow your<br /> garden for lifetime
-              </p>
+          <div>
+            <img className="sec2gridi" src="./Images/sec2_4.png" alt=""/>
+            <div className="sec2gridc">
+              <div className="">
+                <h3 className="paraFont">
+                  <b>Lifetime Support</b>
+                </h3>
+                <p className="paraFont">
+                  We help you grow your<br /> garden for lifetime
+                </p>
+              </div>
             </div>
           </div>
 

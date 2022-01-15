@@ -12,6 +12,12 @@
   font-size: 1.5vw;
 }
 
+.smallFont{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+}
+
 .paraFont {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2vw;
@@ -161,6 +167,7 @@ ul {
 .about2 .grid {
   column-gap: 2%;
   width: 70%;
+  text-align: center;
 }
 
 .zero {
@@ -300,7 +307,6 @@ ul {
   align-items: center;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   margin-top: 3%;
 }
@@ -493,7 +499,8 @@ footer i{
 .plantaeBottom{
     position: absolute;
     right: 0;
-    bottom: 2rem;
+    bottom: 3vh;
+    height: 80%;
 }
 
 footer p{
@@ -507,12 +514,12 @@ footer p{
 @media only screen and (max-width: 1200px) {
   /* Font Classes  */
 
-  .subHeader {
-    font-size: 1.3rem;
+  .TypeCardContent .paraFont{
+    font-size: 1.1vw;
   }
 
-  .paraFont {
-
+  .TypeCard .subHeader {
+    font-size: 1.4vw;
   }
   /* Font Classes End */
 
@@ -525,13 +532,6 @@ footer p{
 
   /* Font Classes  */
 
-  .subHeader {
-    font-size: 1rem;
-  }
-
-  .paraFont {
-
-  }
   /* Font Classes End */
 
   .aboutSec1 {
@@ -540,6 +540,10 @@ footer p{
 
   .aboutContent {
     bottom: 0%;
+  }
+
+  footer {
+    font-size: 0.8rem;
   }
 
 }
@@ -597,26 +601,62 @@ footer p{
 
 /* about section2 starts */
 
-.aboutSec2 {
-  margin-top: 20vh;
+.about2 .flex {
+  gap: 2em;
 }
+
+.about2 .grid {
+  column-gap: 0%;
+  row-gap: 10%;
+  width: 80%;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 2rem;
+}
+
+.aboutSec2 {
+  padding: 25% 0 0 0;
+}
+
 
 /* about section2 ends */
 
 /* TypeCardComp Section */
 
 .TypeCard .subHeader {
-    font-size: 1.6vw;
-    margin-bottom: 2%;
+  font-size: 1.6vw;
+  margin-bottom: 2%;
 }
 
 .TypeCard .paraFont {
   font-size: 1.1vw;
 }
 
+.TypeCard {
+  border-radius: 10px;
+  margin: 0 8% 2%;
+  width: 18%;
+}
+
+.CardHolder {
+  flex-wrap: wrap;
+}
+
 /* TypeCardComp Section Ends */
 
 /* Footer Section */
+
+footer{
+  padding: 1rem;
+  font-size: 0.5rem;
+}
+
+.smallFont{
+  font-size: 1.5vw;
+}
+
+.footer .grid{
+  grid-template-columns: 1.6fr 1.1fr 1fr;
+}
 
 .socials {
   align-items: flex-start;
@@ -636,19 +676,6 @@ footer p{
   }
 
   /* About Section 1 Ends */
-
-  /* Footer Section */
-
-  .footer .grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: fit-content(100%) fit-content(100%) fit-content(100%);
-  }
-
-  .plantaeBottom {
-    transform: rotate(90deg) translateX(-50%);
-  }
-
-  /* Footer Section Ends */
 }
 
 @media only screen and (max-width: 425px) {

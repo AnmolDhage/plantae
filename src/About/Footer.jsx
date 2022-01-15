@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer(){
     return (
-        <section id="footer" className="footer">
+        <section id="footer" className="footer smallFont">
           <footer>
 
             <div className="container">
