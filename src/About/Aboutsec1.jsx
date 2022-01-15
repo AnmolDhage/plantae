@@ -3,7 +3,15 @@ import Navbar from './Navbar'
 
 
 function Aboutsec1() {
+
+  let [width, setWidth] = React.useState(window.innerWidth);
+
+  window.addEventListener('resize', () => {
+    setWidth(window.innerWidth);
+  });
+
   return (
+
     <section id="about" className="about">
       <Navbar />
       <div className="aboutSec1 flex">
@@ -18,7 +26,9 @@ function Aboutsec1() {
         </h2>
       </div>
     </section>
+
   )
+
 }
 
 export default Aboutsec1;

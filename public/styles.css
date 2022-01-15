@@ -557,6 +557,19 @@ footer p{
 /*Navbar Starts*/
 
 @media only screen and (max-width: 768px) {
+
+  /* Font Classes Start */
+
+  .subHeader {
+    font-size: 3vw;
+  }
+
+  .paraFont {
+    font-size: 1.5vw;
+  }
+
+  /* Font Classes End */
+
  /*Navbar Starts*/
  .nav-flex {
   margin-top: 0.5rem;
@@ -571,6 +584,89 @@ footer p{
   font-size:0.9rem;
 }
 /*Navbar Starts*/
+
+/* about section 1 starts */
+.aboutContent{
+  color: black;
+  margin: 0 auto;
+  position: static;
+  text-align: center;
+  width: 50%;
+}
+/* about section one ends */
+
+/* about section2 starts */
+
+.aboutSec2 {
+  margin-top: 20vh;
+}
+
+/* about section2 ends */
+
+/* TypeCardComp Section */
+
+.TypeCard .subHeader {
+    font-size: 1.6vw;
+    margin-bottom: 2%;
+}
+
+.TypeCard .paraFont {
+  font-size: 1.1vw;
+}
+
+/* TypeCardComp Section Ends */
+
+/* Footer Section */
+
+.socials {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Footer Section Ends */
+
+}
+
+@media only screen and (max-width: 650px) {
+  /* About Section 1 */
+  .title-1 {
+    padding-left: 5rem;
+  }
+
+  /* About Section 1 Ends */
+
+  /* Footer Section */
+
+  .footer .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: fit-content(100%) fit-content(100%) fit-content(100%);
+  }
+
+  .plantaeBottom {
+    transform: rotate(90deg) translateX(-50%);
+  }
+
+  /* Footer Section Ends */
+}
+
+@media only screen and (max-width: 425px) {
+  /* About Section 1 */
+  .title-1 {
+    padding-left: 3rem;
+  }
+
+  .title-1, .title-2 {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
+  }
+  /* About Section 1 Ends */
+
 }
 
 /* Media Queries End */
