@@ -294,11 +294,11 @@ ul {
   opacity: 0;
 }
 .carousel-control-prev-icon{
-  display: none;
+  opacity: 0;
 }
 
 .carousel-control-next-icon{
-  display: none;
+  opacity: 0;
 }
 /*Carousel Ends*/
 

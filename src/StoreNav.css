@@ -1,0 +1,109 @@
+header {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: rgba(79, 168, 150, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: black;
+}
+
+.logo {
+  font-size:2rem;
+  font-weight: 700;
+  padding:0 1rem 0 1rem;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+}
+.search_bar > input {
+  height: 2rem;
+  padding: 10px;
+  border: none;
+  width: 50rem;
+}
+.search_bar > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem !important;
+  width: 3rem !important;
+  background-color: #008c21;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  width: 35%;
+  justify-content: flex-start;
+  gap: 4rem;
+}
+
+.option-body{
+  display: flex;
+  align-items: center;
+  margin-left:0.7rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.option_upper {
+  font-size: 0.8rem;
+}
+
+.option_lower {
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.basket {
+  padding-top:0.4rem;
+  color: rgb(0, 0, 0);
+}
+
+.fav-icon.fa-caret-down{
+  color: rgb(122, 122, 122);
+}
+
+.list{
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(70, 161, 70);
+  position:sticky;
+}
+
+.list-grps{
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  padding:0 4rem 0 4rem;
+  border-right: 1px solid
+}
+
+.About-Us{
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.Best-Sellers{
+  border-right: 0;
+}
