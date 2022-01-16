@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import PlantCard from './PlantCard';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Products from './Products';
+
+// Full screen: Top 4, 3-carousel: Top 6, 2-carousel: Top 6, 1-carousel: All 
 
 function AboutAllPlantCards() {
 
@@ -9,31 +12,31 @@ function AboutAllPlantCards() {
 
   window.addEventListener('resize', () => {
     setWidth(window.innerWidth);
-    console.log(width);
   });
   if (width > 1200) {
 
     return (
       <div className="AboutAllPlantCards">
-        <PlantCard
-          num={1}
-          type={'Balcony_Plants'}
-        />
-        <PlantCard
-          num={3}
-          type={'Corporate_Plants'}
-        />
-        <PlantCard
-          num={4}
-          type={'Desktop_Plants'}
-        />
-        <PlantCard
-          num={1}
-          type={'Fancy_Plants'}
-        />
+
+        {Products.slice(0,4).map((product) => {
+          return <>
+            <PlantCard
+              key={product.id}
+              img={product.img}
+              type={product.type}
+              title={product.title}
+              price={product.price}
+              content={product.content}
+              rating={product.rating}
+
+            />
+          </>
+        })}
       </div>
     )
   }
+
+
 
   else if (width <= 1200 && width > 900) {
     return (
@@ -41,37 +44,39 @@ function AboutAllPlantCards() {
       <Carousel>
         <Carousel.Item>
           <div className="AboutAllPlantCards">
+            {Products.slice(0,3).map((product) => {
+              return <>
             <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
-            />
-            <PlantCard
-              num={3}
-              type={'Corporate_Plants'}
-            />
-            <PlantCard
-              num={4}
-              type={'Desktop_Plants'}
-            />
+              key={product.id}
+              img={product.img}
+              type={product.type}
+              title={product.title}
+              price={product.price}
+              content={product.content}
+              rating={product.rating}
 
+            />
+          </>
+            })}
           </div>
 
         </Carousel.Item>
         <Carousel.Item>
           <div className="AboutAllPlantCards">
+          {Products.slice(3,6).map((product) => {
+              return <>
             <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
-            />
-            <PlantCard
-              num={3}
-              type={'Corporate_Plants'}
-            />
-            <PlantCard
-              num={4}
-              type={'Desktop_Plants'}
-            />
+              key={product.id}
+              img={product.img}
+              type={product.type}
+              title={product.title}
+              price={product.price}
+              content={product.content}
+              rating={product.rating}
 
+            />
+          </>
+            })}
           </div>
 
         </Carousel.Item>
@@ -85,41 +90,58 @@ function AboutAllPlantCards() {
       <Carousel>
         <Carousel.Item>
           <div className="AboutAllPlantCards">
+          {Products.slice(0,2).map((product) => {
+              return <>
             <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
-            />
-            <PlantCard
-              num={3}
-              type={'Corporate_Plants'}
-            />
+              key={product.id}
+              img={product.img}
+              type={product.type}
+              title={product.title}
+              price={product.price}
+              content={product.content}
+              rating={product.rating}
 
+            />
+          </>
+            })}
           </div>
 
         </Carousel.Item>
         <Carousel.Item>
           <div className="AboutAllPlantCards">
+          {Products.slice(2,4).map((product) => {
+              return <>
             <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
+              key={product.id}
+              img={product.img}
+              type={product.type}
+              title={product.title}
+              price={product.price}
+              content={product.content}
+              rating={product.rating}
+
             />
-            <PlantCard
-              num={3}
-              type={'Corporate_Plants'}
-            />
+          </>
+            })}
           </div>
 
         </Carousel.Item>
         <Carousel.Item>
           <div className="AboutAllPlantCards">
+          {Products.slice(4,6).map((product) => {
+              return <>
             <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
+              key={product.id}
+              img={product.img}
+              type={product.type}
+              title={product.title}
+              price={product.price}
+              content={product.content}
+              rating={product.rating}
+
             />
-            <PlantCard
-              num={3}
-              type={'Corporate_Plants'}
-            />
+          </>
+            })}
           </div>
 
         </Carousel.Item>
@@ -131,59 +153,25 @@ function AboutAllPlantCards() {
     return (
 
       <Carousel>
-        <Carousel.Item>
-          <div className="AboutAllPlantCards">
-            <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
-            />
-          </div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className="AboutAllPlantCards">
-            <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
-            />
-          </div>
+        {Products.map((product) => {
+          return (
+            <Carousel.Item>
+              <div className="AboutAllPlantCards">
+                <PlantCard
+                  key={product.id}
+                  img={product.img}
+                  type={product.type}
+                  title={product.title}
+                  price={product.price}
+                  content={product.content}
+                  rating={product.rating}
 
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className="AboutAllPlantCards">
-            <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
-            />
-          </div>
+                />
+              </div>
+            </Carousel.Item>
+          )
+        })}
 
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className="AboutAllPlantCards">
-            <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
-            />
-          </div>
-
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className="AboutAllPlantCards">
-            <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
-            />
-          </div>
-
-        </Carousel.Item>
-        <Carousel.Item>
-          <div className="AboutAllPlantCards">
-            <PlantCard
-              num={1}
-              type={'Balcony_Plants'}
-            />
-          </div>
-
-        </Carousel.Item>
       </Carousel>
 
     )
