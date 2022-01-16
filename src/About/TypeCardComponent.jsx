@@ -13,7 +13,7 @@ function CreateCard(CardDetails){
 function TypeCardComponent() {
   return (
     <section id='TypeCardComp' className='TypeCardComp'>
-      <div className='container flex'>
+      <div className='c_container flex'>
         <h1 className='TypeCardMainHeading subHeader'>What are you looking for?</h1>
         <div className='TypeCardSubHeading'>
           <h1 className='TypeCardSubHeadingh1 paraFont' >You name the Place and We got the Right Plant for it.</h1>

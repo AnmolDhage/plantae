@@ -353,7 +353,7 @@ ul {
 
 /* FAQ */
 
-.container-faq {
+.c_container-faq {
   margin: 2rem auto;
   padding: 0 10%;
   max-width: 80vw;
@@ -480,6 +480,7 @@ footer {
 
 footer ul{
     list-style-type: none;
+    padding-left: 0;
 }
 
 a {
@@ -491,7 +492,7 @@ footer li{
 }
 
 
-footer .container .col a {
+.c_col a {
     color: black;
 }
 
@@ -499,11 +500,11 @@ footer i{
     margin: 0 1rem 0 0;
 }
 
-.col{
+.c_col{
     height: 100%;
 }
 
-.row{
+.c_row{
     width: 100%;
 }
 
@@ -704,6 +705,14 @@ footer{
     padding-top: 20vh;
   }
   /* About Section 1 Ends */
+
+  /* Footer section */
+
+  footer h4 {
+    font-size: 0.8rem;
+  }
+
+  /* Footer Section Ends */
 
 }
 

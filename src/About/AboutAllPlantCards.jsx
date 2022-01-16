@@ -9,7 +9,6 @@ function AboutAllPlantCards() {
 
   window.addEventListener('resize', () => {
     setWidth(window.innerWidth);
-    console.log(width);
   });
   if (width > 1200) {
 

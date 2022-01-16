@@ -3,7 +3,6 @@ import { Routes, Route, Switch } from "react-router-dom";
 import About from './About/About.jsx';
 import Store from './Store/Store.jsx';
 import Navbar from './About/Navbar';
-import './StoreNav.css';
 
 function App() {
   return (

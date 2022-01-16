@@ -1,8 +1,9 @@
 import React from 'react';
-import StoreNav from './StoreNav';
+import StoreNav from './StoreNav.jsx';
+import './Store.css';
 
 function Store() {
-  console.log('sore page');
+  console.log('store page');
   return (
     <div>
       <StoreNav />
