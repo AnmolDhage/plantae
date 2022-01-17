@@ -11,7 +11,7 @@ function Footer(){
               <div className="c_col">
                   <ul>
                       <h4>Useful Knowlegde</h4>
-                      <a href="#" ><li>Feed - GIY Gc_row Your Self</li></a><br />
+                      <a href="#" ><li>Feed - GIY Grow It Yourself</li></a><br />
                       <a href="#" ><li>Feed - Learn how to properly plant a seed</li></a><br />
                       <a href="#" ><li>Feed - Top 10 plants</li></a><br />
                       <a href="#" ><li>Feed - Kitchen Gardening</li></a>

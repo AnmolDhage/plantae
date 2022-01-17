@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Products from './Products';
 
-// Full screen: Top 4, 3-carousel: Top 6, 2-carousel: Top 6, 1-carousel: All 
+// Full screen: Top 4, 3-carousel: Top 6, 2-carousel: Top 6, 1-carousel: All
 
 function AboutAllPlantCards() {
 
