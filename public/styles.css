@@ -85,6 +85,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+::selection{
+  background: white;
+}
 /* HTML Tags End*/
 
 /* Generalization */
@@ -197,7 +201,7 @@ ul {
 
 .one {
   color: white;
-  text-shadow: 0px 10px 10px grey;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
 }
 
 .sec2gridi{
@@ -374,6 +378,11 @@ ul {
 /* Type card component div ends */
 
 /* FAQ */
+
+.faq .c_container {
+  max-width: 80vw;
+  margin: auto;
+}
 
 .c_container-faq {
   margin: 2rem auto;

@@ -4,6 +4,7 @@ import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Products from './Products';
 
+
 // Full screen: Top 4, 3-carousel: Top 6, 2-carousel: Top 6, 1-carousel: All
 
 function AboutAllPlantCards() {
@@ -19,18 +20,17 @@ function AboutAllPlantCards() {
       <div className="AboutAllPlantCards">
 
         {Products.slice(0,4).map((product) => {
-          return <>
+          return (
             <PlantCard
-              key={product.id}
+              key={product._id}
               img={product.img}
               type={product.type}
               title={product.title}
               price={product.price}
               content={product.content}
               rating={product.rating}
-
             />
-          </>
+          )
         })}
       </div>
     )
@@ -45,18 +45,17 @@ function AboutAllPlantCards() {
         <Carousel.Item>
           <div className="AboutAllPlantCards">
             {Products.slice(0,3).map((product) => {
-              return <>
+              return (
             <PlantCard
-              key={product.id}
+              key={product._id}
               img={product.img}
               type={product.type}
               title={product.title}
               price={product.price}
               content={product.content}
               rating={product.rating}
-
             />
-          </>
+          )
             })}
           </div>
 
@@ -64,18 +63,17 @@ function AboutAllPlantCards() {
         <Carousel.Item>
           <div className="AboutAllPlantCards">
           {Products.slice(3,6).map((product) => {
-              return <>
+              return (
             <PlantCard
-              key={product.id}
+              key={product._id}
               img={product.img}
               type={product.type}
               title={product.title}
               price={product.price}
               content={product.content}
               rating={product.rating}
-
             />
-          </>
+          )
             })}
           </div>
 
@@ -91,18 +89,17 @@ function AboutAllPlantCards() {
         <Carousel.Item>
           <div className="AboutAllPlantCards">
           {Products.slice(0,2).map((product) => {
-              return <>
+              return (
             <PlantCard
-              key={product.id}
+              key={product._id}
               img={product.img}
               type={product.type}
               title={product.title}
               price={product.price}
               content={product.content}
               rating={product.rating}
-
             />
-          </>
+          )
             })}
           </div>
 
@@ -110,18 +107,17 @@ function AboutAllPlantCards() {
         <Carousel.Item>
           <div className="AboutAllPlantCards">
           {Products.slice(2,4).map((product) => {
-              return <>
+              return (
             <PlantCard
-              key={product.id}
+              key={product._id}
               img={product.img}
               type={product.type}
               title={product.title}
               price={product.price}
               content={product.content}
               rating={product.rating}
-
             />
-          </>
+          )
             })}
           </div>
 
@@ -129,18 +125,17 @@ function AboutAllPlantCards() {
         <Carousel.Item>
           <div className="AboutAllPlantCards">
           {Products.slice(4,6).map((product) => {
-              return <>
+              return (
             <PlantCard
-              key={product.id}
+              key={product._id}
               img={product.img}
               type={product.type}
               title={product.title}
               price={product.price}
               content={product.content}
               rating={product.rating}
-
             />
-          </>
+                    )
             })}
           </div>
 
@@ -155,17 +150,16 @@ function AboutAllPlantCards() {
       <Carousel>
         {Products.map((product) => {
           return (
-            <Carousel.Item>
+            <Carousel.Item key={product._id}>
               <div className="AboutAllPlantCards">
                 <PlantCard
-                  key={product.id}
+                  key={product._id}
                   img={product.img}
                   type={product.type}
                   title={product.title}
                   price={product.price}
                   content={product.content}
                   rating={product.rating}
-
                 />
               </div>
             </Carousel.Item>

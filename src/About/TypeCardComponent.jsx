@@ -4,6 +4,7 @@ import CardDetails from './CardDetails';
 
 function CreateCard(CardDetails){
   return <Card
+          key={CardDetails._id}
           img={CardDetails.img}
           title={CardDetails.title}
           content={CardDetails.content}
@@ -19,7 +20,10 @@ function TypeCardComponent() {
           <h1 className='TypeCardSubHeadingh1 paraFont' >You name the Place and We got the Right Plant for it.</h1>
         </div>
         <div className='CardHolder'>
-          {CardDetails.map(CreateCard)}
+          {CardDetails.map(CreateCard => {
+            <li key={CardDetails._id}>
+            </li>
+          })}
         </div>
       </div>
     </section>
