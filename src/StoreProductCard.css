@@ -1,0 +1,27 @@
+
+.PlantCard{
+    background-color: #f9f9f9;
+}
+
+.PlantCard .grid{
+    grid-template-columns: repeat(4, auto);
+    width: fit-content;
+    margin: auto;
+    
+}
+
+.buttonSec{
+    margin: auto;
+    width: fit-content;
+}
+
+
+.lmhaButton{
+    background-color: #468B5B;
+    font-weight: 600;
+    color: white;
+    border-radius: 30px;
+    padding: 0.7rem 3rem;
+    border: none;
+    margin: 2rem;
+}

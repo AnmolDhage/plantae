@@ -14,6 +14,7 @@ function AboutAllPlantCards() {
   window.addEventListener('resize', () => {
     setWidth(window.innerWidth);
   });
+
   if (width > 1200) {
 
     return (
@@ -23,12 +24,7 @@ function AboutAllPlantCards() {
           return (
             <PlantCard
               key={product._id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+              details={product.details}
             />
           )
         })}
@@ -47,13 +43,9 @@ function AboutAllPlantCards() {
             {Products.slice(0,3).map((product) => {
               return (
             <PlantCard
+
               key={product._id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+              details={product.details}
             />
           )
             })}
@@ -66,12 +58,7 @@ function AboutAllPlantCards() {
               return (
             <PlantCard
               key={product._id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+              details={product.details}
             />
           )
             })}
@@ -92,12 +79,7 @@ function AboutAllPlantCards() {
               return (
             <PlantCard
               key={product._id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+              details={product.details}
             />
           )
             })}
@@ -110,12 +92,7 @@ function AboutAllPlantCards() {
               return (
             <PlantCard
               key={product._id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+              details={product.details}
             />
           )
             })}
@@ -128,12 +105,7 @@ function AboutAllPlantCards() {
               return (
             <PlantCard
               key={product._id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+              details={product.details}
             />
                     )
             })}
@@ -154,12 +126,7 @@ function AboutAllPlantCards() {
               <div className="AboutAllPlantCards">
                 <PlantCard
                   key={product._id}
-                  img={product.img}
-                  type={product.type}
-                  title={product.title}
-                  price={product.price}
-                  content={product.content}
-                  rating={product.rating}
+                  details={product.details}
                 />
               </div>
             </Carousel.Item>

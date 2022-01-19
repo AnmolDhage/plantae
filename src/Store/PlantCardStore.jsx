@@ -1,13 +1,11 @@
 import React from 'react';
-import Rating from './Rating.jsx';
 
 function PlantCard(props) {
   return (
-
-      <div className="plantCard-body">
+    
+      <div className="plantCard-body smallFont">
         <div className="plantCard-img-body"><img className="plantCard-type-img" src={`./Images/${props.details.type}.png`} alt="plant" />
-          <img className="plantCard-img" src={`./Images/${props.details.img}.png`} alt="plant" />
-         </div>
+          <img className="plantCard-img" src={`./Images/${props.details.img}.png`} alt="plant" /></div>
         <div>
           <div>
             <h1 className="plantCard-title">{props.details.title}</h1>
@@ -16,12 +14,11 @@ function PlantCard(props) {
           <div className="plantCard-info">
             <p>{props.details.content}</p>
           </div>
-            <div className="plantCard-Add-to-cart-btn">
-            <Rating value={props.rating} />
-            <button type="button"> Add to Cart </button>
-            </div>
+          <div className="plantCard-Add-to-cart-btn"><p>{props.details.rating}</p>
+            <button type="button"> Add to Cart </button></div>
         </div>
       </div>
+
   )
 }
 

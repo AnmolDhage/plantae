@@ -1,16 +1,16 @@
 import React from 'react';
-import StoreNav from './StoreNav.jsx';
+import StoreNav from './StoreNav';
+import ProductCard from './ProductCard';
 import Banner from './Banners.jsx';
-import './Store.css';
 
 function Store() {
-  console.log('store page');
-  return <>
+  return (
     <div>
-
-    </div>
-    <Banner />
-  </>
+      <StoreNav />
+      <ProductCard />
+      <Banner />
+   </div>
+   )
 }
 
 export default Store;
