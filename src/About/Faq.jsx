@@ -6,7 +6,7 @@ import Search from './Search.jsx';
 function Faq() {
   return <>
     <section id="faq" className="faq">
-      <div className="container">
+      <div className="c_container">
         <Accordian />
         <Quote />
         <Search />

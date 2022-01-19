@@ -7,17 +7,17 @@ function Footer(){
           <footer>
 
             <div className="container">
-              <div className="grid row">
-              <div className="col">
+              <div className="grid c_row">
+              <div className="c_col">
                   <ul>
                       <h4>Useful Knowlegde</h4>
-                      <a href="#" ><li>Feed - GIY Grow Your Self</li></a><br />
+                      <a href="#" ><li>Feed - GIY Grow It Yourself</li></a><br />
                       <a href="#" ><li>Feed - Learn how to properly plant a seed</li></a><br />
                       <a href="#" ><li>Feed - Top 10 plants</li></a><br />
                       <a href="#" ><li>Feed - Kitchen Gardening</li></a>
                   </ul>
               </div>
-              <div className="col">
+              <div className="c_col">
                   <ul>
                       <h4>Useful Links</h4>
                       <a href="#" ><li>Contact Us</li></a><br />
@@ -28,20 +28,20 @@ function Footer(){
                       <a href="#" ><li>Terms of Service</li></a><br />
                   </ul>
               </div>
-              <div className="col">
+              <div className="c_col">
                   <h4>Follow Us</h4>
                     <div className="socials">
-                      <a href="#"><i class="fab fa-github fa-2x"></i></a>
-                      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                      <a href="#"><i className="fab fa-github fa-2x"></i></a>
+                      <a href="#"><i className="fab fa-facebook fa-2x"></i></a>
+                      <a href="#"><i className="fab fa-instagram fa-2x"></i></a>
+                      <a href="#"><i className="fab fa-twitter fa-2x"></i></a>
                     </div>
               </div>
 
               </div>
               <img className="plantaeBottom" src="./Images/Group 66.png" alt="..."/>
 
-              <div className="row">
+              <div className="c_row">
                   <p>Copyright &copy; 2021 Plantae</p>
               </div>
             </div>

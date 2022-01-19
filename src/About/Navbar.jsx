@@ -7,21 +7,17 @@ function Navbar() {
       <nav>
         <ul id="primary-navigation" className="primary-navigation nav-flex">
           <li className="active">
-            <a>
-              <Link to="/">About</Link>
-            </a></li>
+             <Link to="/">About</Link>
+          </li>
           <li >
-            <a>
-              <Link to="/store">Store</Link>
-            </a></li>
+             <Link to="/store">Store</Link>
+          </li>
           <li>
             <a href="#">
               Sign In
             </a></li>
         </ul>
-
       </nav>
-
     </div>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react';
 function Aboutsec2() {
   return (
     <section id="about2" className="about2">
-      <div className="container flex aboutSec2">
+      <div className="c_container flex aboutSec2">
         <h1 className="title">
           <span className="zero">0</span><span className="one">1</span>
         </h1>

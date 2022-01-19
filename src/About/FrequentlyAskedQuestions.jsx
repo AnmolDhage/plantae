@@ -20,13 +20,13 @@ function Accordian() {
            <h1 className="FAQ subHeader">Frequently Asked Questions</h1>
            {
              data.map((qa, index) => {
-               return <>
-               <div className="question-item" onClick={() => toggle(index)} key={index}>
-                 <span>{clicked === index ? <i className="fa fa-minus" aria-hidden="true"></i> : <i className="fa fa-plus" aria-hidden="true"></i>} </span>
-                 <h2 className="paraFont">{qa.question}</h2>
-               </div>
-               {clicked === index ? (<p className="answer-item paraFont">{qa.answer}</p>) : null}
-               </>;
+               return <div key={qa._id}>
+                         <div className="question-item" onClick={() => toggle(index)}>
+                           <span>{clicked === index ? <i className="fa fa-minus" aria-hidden="true"></i> : <i className="fa fa-plus" aria-hidden="true"></i>} </span>
+                           <h2 className="paraFont">{qa.question}</h2>
+                         </div>
+                         {clicked === index ? (<p className="answer-item paraFont">{qa.answer}</p>) : null}
+                      </div>;
              })
            }
   </div>;

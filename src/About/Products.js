@@ -2,7 +2,7 @@ import React from "react";
 
 const Products = [
     {
-      id: 1,
+      _id: 1,
       details: {
         img: 1,
         type: "Desktop_Plants",
@@ -15,7 +15,7 @@ const Products = [
       
     },
     {
-      id: 2,
+      _id: 2,
       details: {
       img:3,
       type: "Balcony_Plants",
@@ -27,7 +27,7 @@ const Products = [
       }
     },
     {
-      id: 3,
+      _id: 3,
       details: {
         img:4,
       type: "Corporate_Plants",
@@ -39,7 +39,7 @@ const Products = [
       }
     },
     {
-      id: 4,
+      _id: 4,
       details: {
         img: 7,
       type: "Fancy_Plants",
@@ -51,7 +51,7 @@ const Products = [
       }
     },
     {
-        id: 5,
+        _id: 5,
         details: {
           img: 1,
         type: "Desktop_Plants",
@@ -63,7 +63,7 @@ const Products = [
         }
       },
       {
-        id: 6,
+        _id: 6,
         details: {
           img:3,
         type: "Balcony_Plants",
@@ -75,7 +75,7 @@ const Products = [
         }
       },
       {
-        id: 7,
+        _id: 7,
         details: {
           img:4,
         type: "Corporate_Plants",
@@ -87,7 +87,7 @@ const Products = [
         }
       },
       {
-        id: 8,
+        _id: 8,
         details: {
           img: 7,
         type: "Fancy_Plants",
@@ -98,7 +98,7 @@ const Products = [
           rating: "3.2 (500)"
         }
       },{
-        id: 9,
+        _id: 9,
         details: {
           img: 1,
         type: "Desktop_Plants",
@@ -110,7 +110,7 @@ const Products = [
         }
       },
       {
-        id: 10,
+        _id: 10,
         details: {
           img:3,
         type: "Balcony_Plants",
@@ -122,7 +122,7 @@ const Products = [
         }
       },
       {
-        id: 11,
+        _id: 11,
         details: {
           img:4,
         type: "Corporate_Plants",
@@ -134,7 +134,7 @@ const Products = [
         }
       },
       {
-        id: 12,
+        _id: 12,
         details: {
           img: 7,
         type: "Fancy_Plants",
@@ -146,7 +146,7 @@ const Products = [
         }
       },
       {
-          id: 13,
+          _id: 13,
           details: {
             img: 1,
           type: "Desktop_Plants",
@@ -158,7 +158,7 @@ const Products = [
           }
         },
         {
-          id: 14,
+          _id: 14,
           details: {
             img:3,
           type: "Balcony_Plants",
@@ -170,7 +170,7 @@ const Products = [
           }
         },
         {
-          id: 15,
+          _id: 15,
           details: {
             img:4,
           type: "Corporate_Plants",
@@ -182,7 +182,7 @@ const Products = [
           }
         },
         {
-          id: 16,
+          _id: 16,
           details: {
             img: 7,
           type: "Fancy_Plants",
@@ -193,7 +193,7 @@ const Products = [
             rating: "3.2 (500)"
           }
         },{
-          id: 17,
+          _id: 17,
           details: {
             img: 1,
           type: "Desktop_Plants",
@@ -205,7 +205,7 @@ const Products = [
           }
         },
         {
-          id: 18,
+          _id: 18,
           details: {
             img:3,
           type: "Balcony_Plants",
@@ -217,7 +217,7 @@ const Products = [
           }
         },
         {
-          id: 19,
+          _id: 19,
           details: {
             img:4,
           type: "Corporate_Plants",
@@ -229,7 +229,7 @@ const Products = [
           }
         },
         {
-          id: 20,
+          _id: 20,
           details: {
             img: 7,
           type: "Fancy_Plants",
@@ -241,7 +241,7 @@ const Products = [
           }
         },
         {
-            id: 21,
+            _id: 21,
             details: {
               img: 1,
             type: "Desktop_Plants",
@@ -253,7 +253,7 @@ const Products = [
             }
           },
           {
-            id: 22,
+            _id: 22,
             details: {
               img:3,
             type: "Balcony_Plants",
@@ -265,7 +265,7 @@ const Products = [
             }
           },
           {
-            id: 23,
+            _id: 23,
             details: {
               img:4,
             type: "Corporate_Plants",
@@ -277,7 +277,7 @@ const Products = [
             }
           },
           {
-            id: 24,
+            _id: 24,
             details: {
               img: 7,
             type: "Fancy_Plants",
@@ -288,7 +288,7 @@ const Products = [
               rating: "3.2 (500)"
             }
           },{
-            id: 25,
+            _id: 25,
             details: {
               img: 1,
             type: "Desktop_Plants",
@@ -300,7 +300,7 @@ const Products = [
             }
           },
           {
-            id: 26,
+            _id: 26,
             details: {
               img:3,
             type: "Balcony_Plants",
@@ -312,7 +312,7 @@ const Products = [
             }
           },
           {
-            id: 27,
+            _id: 27,
             details: {
               img:4,
             type: "Corporate_Plants",
@@ -324,7 +324,7 @@ const Products = [
             }
           },
           {
-            id: 28,
+            _id: 28,
             details: {
               img: 7,
             type: "Fancy_Plants",
@@ -336,7 +336,7 @@ const Products = [
             }
           },
           {
-              id: 29,
+              _id: 29,
               details: {
                 img: 1,
               type: "Desktop_Plants",
@@ -348,7 +348,7 @@ const Products = [
               }
             },
             {
-              id: 30,
+              _id: 30,
               details: {
                 img:3,
               type: "Balcony_Plants",
@@ -360,7 +360,7 @@ const Products = [
               }
             },
             {
-              id: 31,
+              _id: 31,
               details: {
                 img:4,
               type: "Corporate_Plants",
@@ -372,7 +372,7 @@ const Products = [
               }
             },
             {
-              id: 32,
+              _id: 32,
               details: {
                 img: 7,
               type: "Fancy_Plants",

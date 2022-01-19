@@ -10,6 +10,7 @@
 .subHeader {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5vw;
+  margin-bottom: 0;
 }
 
 .smallFont{
@@ -18,15 +19,35 @@
   font-weight: 400;
 }
 
+.faq-font {
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
 .paraFont {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2vw;
   font-weight: 400;
+  margin-bottom: 0;
 }
 /* Font Classes End */
 
 /* Utility Classes */
 
+.fa-plus:before {
+  font-size: 15px;
+  -webkit-text-stroke: 1px white;
+}
+
+.fa-minus:before {
+  font-size: 15px;
+  -webkit-text-stroke: 1px white;
+}
+
+.c_container {
+  margin-top: 2vw;
+}
 
 .flex {
   align-items: center;
@@ -63,6 +84,10 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+::selection{
+  background: white;
 }
 /* HTML Tags End*/
 
@@ -158,6 +183,7 @@ ul {
 /* about section 2 */
 .about2 .flex {
   gap: 5vh;
+  margin-top: 8rem;
 }
 
 .about2 .grid {
@@ -175,12 +201,12 @@ ul {
 
 .one {
   color: white;
-  text-shadow: 0px 10px 10px grey;
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
 }
 
 .sec2gridi{
   margin: 0 auto;
-  width: 3rem;
+  width: 5vw;
 }
 
 .sec2gridc, .sec2Content {
@@ -196,7 +222,7 @@ ul {
 .AboutAllPlantCards{
   display: flex;
   justify-content: center;
-  margin: 5% auto 0;
+  margin: 8% auto 0;
   width: 95%;
 }
 
@@ -359,25 +385,34 @@ ul {
 
 /* FAQ */
 
-.container-faq {
+.faq .c_container {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.c_container-faq {
   margin: 2rem auto;
   padding: 0 10%;
-  max-width: 80vw;
+  max-width: 80%;
 }
 
 .FAQ {
   display: flex;
   flex-direction: column;
-  margin: auto;
   align-items: center;
 }
 
 .question-item {
   display: flex;
   align-items: center;
+  gap: 10px;
   line-height: 1.25rem;
   cursor: pointer;
   margin: 1rem auto;
+}
+
+.question-item h2 {
+  margin: 0;
 }
 
 .question-item .paraFont {
@@ -438,7 +473,7 @@ ul {
 .searchBar{
   width: 100%;
   padding: 10px;
-  height: 25px;
+  height: 35px;
   border-radius: 0;
   border-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -451,7 +486,7 @@ ul {
 
 .searchButton {
   width: 99px;
-  height: 50px;
+  height: 35px;
   border: 1px solid #468B5B;
   background: #468B5B;
   text-align: center;
@@ -486,6 +521,7 @@ footer {
 
 footer ul{
     list-style-type: none;
+    padding-left: 0;
 }
 
 a {
@@ -497,7 +533,7 @@ footer li{
 }
 
 
-footer .container .col a {
+.c_col a {
     color: black;
 }
 
@@ -505,11 +541,11 @@ footer i{
     margin: 0 1rem 0 0;
 }
 
-.col{
+.c_col{
     height: 100%;
 }
 
-.row{
+.c_row{
     width: 100%;
 }
 
@@ -540,9 +576,23 @@ footer p{
   }
   /* Font Classes End */
 
-  .aboutContent {
-    bottom: 10%;
+  /* About Section  */
+    .aboutContent {
+      bottom: 10%;
+    }
+  /* About Section Ends */
+
+  /* TypeCardComp Starts */
+
+  .TypeCard {
+    border-radius: 15px;
+    height: 20vw;
+    width: 20%;
   }
+
+  /* TypeCardComp Ends */
+
+
 }
 
 @media only screen and (max-width: 998px) {
@@ -550,6 +600,8 @@ footer p{
   /* Font Classes  */
 
   /* Font Classes End */
+
+  /* About Section */
 
   .aboutSec1 {
     height: 50vh;
@@ -559,9 +611,23 @@ footer p{
     bottom: 0%;
   }
 
+  /* About Section Ends */
+
+  /* About Section 2 */
+
+  .about2 .flex {
+    margin-top: 5rem;
+  }
+
+  /* About Section 2 Ends */
+
+  /* Footer Section */
+
   footer {
     font-size: 0.8rem;
   }
+
+  /* Footer Section Ends */
 
 }
 
@@ -609,9 +675,11 @@ footer p{
 /* about section 1 starts */
 .aboutContent{
   color: black;
+  left: 0;
   margin: 0 auto;
-  position: static;
+  position: relative;
   text-align: center;
+  top: -4rem;
   width: 50%;
 }
 /* about section one ends */
@@ -620,6 +688,7 @@ footer p{
 
 .about2 .flex {
   gap: 2em;
+  margin-top: 5rem;
 }
 
 .about2 .grid {
@@ -629,11 +698,6 @@ footer p{
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 2rem;
 }
-
-.aboutSec2 {
-  padding: 25% 0 0 0;
-}
-
 
 /* about section2 ends */
 
@@ -649,10 +713,12 @@ footer p{
 }
 
 .TypeCard {
-  border-radius: 10px;
-  margin: 0 8% 2%;
-  width: 18%;
+  border-radius: 15px;
+  margin: 1% 6%;
+  height: 20vw;
+  width: 25%;
 }
+
 
 .CardHolder {
   flex-wrap: wrap;
@@ -692,10 +758,57 @@ footer{
     padding-left: 5rem;
   }
 
+  .aboutContent{
+    top: -6rem;
+  }
+
   /* About Section 1 Ends */
+
+  /* About Section 2 */
+
+  .sec2gridi {
+    width: 10vw;
+  }
+
+  /* About Section 2 Ends */
+
+  /* TypeCardComp Starts */
+  .TypeCardImage {
+    width: 6vw;
+  }
+
+  .TypeCard .subHeader {
+    font-size: 3.5vw;
+  }
+
+  .TypeCard .paraFont {
+    font-size: 2.2vw;
+  }
+
+  .TypeCard{
+    margin: 2% 15%;
+    padding: 5%;
+    height: 40vw;
+    width: 50%;
+  }
+
+
+  /* TypeCardComp Ends */
 }
 
 @media only screen and (max-width: 425px) {
+  /* Font Classes Start */
+
+  .subHeader {
+    font-size: 4vw;
+  }
+
+  .paraFont {
+    font-size: 2.5vw;
+  }
+
+  /* Font Classes End */
+
   /* About Section 1 */
   .title-1 {
     padding-left: 3rem;
@@ -709,7 +822,97 @@ footer{
     padding-bottom: 20vh;
     padding-top: 20vh;
   }
+
+  .aboutContent{
+    top: -3rem;
+  }
   /* About Section 1 Ends */
+
+  /* About Section 2 */
+
+  .about2 .flex {
+    gap: 0;
+    margin-top: 6rem;
+  }
+
+  /* About Section 2 Ends */
+
+  /* TypeCardComp Starts */
+  .TypeCardImage {
+    width: 6vw;
+  }
+
+  .TypeCard .subHeader {
+    font-size: 3.5vw;
+  }
+
+  .TypeCard .paraFont {
+    font-size: 2.2vw;
+  }
+
+  /* TypeCardComp Ends */
+
+  /* FAQ */
+
+  .c_container-faq {
+    margin: 2rem auto;
+    padding: 0 10%;
+    max-width: 60vw;
+  }
+
+  .question-item {
+    line-height: 1.25rem;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+  }
+
+  /* FAQ */
+
+  /* Quote */
+
+  .quote-main-page {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 2% 20%;
+  }
+
+  .quote-content {
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  /* Quote ends */
+
+  /* Search */
+
+  .fa-search::before {
+    font-size: 15px;
+    top: 3px
+  }
+
+  .searchBar{
+    height: 25px;
+  }
+
+  .searchButton {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Search bar ends */
+
+  /* Footer section */
+
+  footer h4 {
+    font-size: 0.8rem;
+  }
+
+  /* Footer Section Ends */
 
 }
 
