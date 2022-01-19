@@ -1,11 +1,12 @@
 import React from 'react';
 import StoreNav from './StoreNav';
+import ProductCard from './ProductCard';
 
 function Store() {
-  console.log('sore page');
   return (
     <div>
       <StoreNav />
+      <ProductCard />
     </div>
   )
 }

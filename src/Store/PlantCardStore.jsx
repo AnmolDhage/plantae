@@ -3,7 +3,7 @@ import React from 'react';
 function PlantCard(props) {
   return (
     
-      <div className="plantCard-body">
+      <div className="plantCard-body smallFont">
         <div className="plantCard-img-body"><img className="plantCard-type-img" src={`./Images/${props.details.type}.png`} alt="plant" />
           <img className="plantCard-img" src={`./Images/${props.details.img}.png`} alt="plant" /></div>
         <div>
