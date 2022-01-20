@@ -22,9 +22,9 @@ function ProductCard() {
 
 
         {Products.slice(0,currentIndex).map((product) => {
-          return <div className='flex'>
+          return <div className='flex' key={product._id}>
             <PlantCardStore
-              key={product.id}
+              key={product._id}
               details={product.details}
             />
           </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Rating from "../About/Rating";
 
 function PlantCard(props) {
   return (
@@ -13,8 +14,9 @@ function PlantCard(props) {
           </div>
           <div className="plantCard-info">
             <p>{props.details.content}</p>
+            <p className='p-rating'><Rating value={props.details.rating} /></p>
           </div>
-          <div className="plantCard-Add-to-cart-btn"><p>{props.details.rating}</p>
+          <div className="plantCard-Add-to-cart-btn">
             <button type="button"> Add to Cart </button></div>
         </div>
       </div>

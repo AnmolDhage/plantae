@@ -15,9 +15,9 @@ function PlantCard(props) {
           </div>
           <div className="plantCard-info">
             <p>{props.details.content}</p>
+            <div className='p-rating'><Rating value={props.details.rating} /></div>
           </div>
             <div className="plantCard-Add-to-cart-btn">
-            <Rating value={props.rating} />
             <button type="button"> Add to Cart </button>
             </div>
         </div>

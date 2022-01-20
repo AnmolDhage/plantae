@@ -10,8 +10,8 @@ const Products = [
         price: "₹" + 1900,
         content:
           "Having plants in the office has been shown to improve air",
-          rating: "3.5 (80)"
-      }
+          rating: 3.5      
+        }
       
     },
     {
@@ -23,7 +23,7 @@ const Products = [
       price: "₹" + 1500,
       content:
         "Having plants in the balcony has been shown to improve air",
-        rating: "4.2 (850)"
+        rating: 4.2
       }
     },
     {
@@ -35,7 +35,7 @@ const Products = [
       price: "₹" + 1999,
       content:
         "Having plants at front of office has been shown to improve air",
-        rating: "1.5 (800)"
+        rating: 1.5
       }
     },
     {
@@ -47,7 +47,7 @@ const Products = [
       price: "₹" + 2900,
       content:
         "Having fancy plants  has been shown to improve air quality",
-        rating: "3.2 (500)"
+        rating: 3.2
       }
     },
     {
@@ -59,8 +59,7 @@ const Products = [
         price: "₹" + 1900,
         content:
           "Having plants in the office has been shown to improve air",
-          rating: "3.5 (80)"
-        }
+          rating: 3.5        }
       },
       {
         _id: 6,
@@ -71,7 +70,7 @@ const Products = [
         price: "₹" + 1500,
         content:
           "Having plants in the balcony has been shown to improve air",
-          rating: "4.2 (850)"
+          rating: 4.2
         }
       },
       {
@@ -83,7 +82,7 @@ const Products = [
         price: "₹" + 1999,
         content:
           "Having plants at front of office has been shown to improve air",
-          rating: "1.5 (800)"
+          rating: 1.5
         }
       },
       {
@@ -95,7 +94,7 @@ const Products = [
         price: "₹" + 2900,
         content:
           "Having fancy plants  has been shown to improve air quality",
-          rating: "3.2 (500)"
+          rating: 3.2
         }
       },{
         _id: 9,
@@ -106,8 +105,7 @@ const Products = [
         price: "₹" + 1900,
         content:
           "Having plants in the office has been shown to improve air",
-          rating: "3.5 (80)"
-        }
+          rating: 3.5        }
       },
       {
         _id: 10,
@@ -118,7 +116,7 @@ const Products = [
         price: "₹" + 1500,
         content:
           "Having plants in the balcony has been shown to improve air",
-          rating: "4.2 (850)"
+          rating: 4.2
         }
       },
       {
@@ -130,7 +128,7 @@ const Products = [
         price: "₹" + 1999,
         content:
           "Having plants at front of office has been shown to improve air",
-          rating: "1.5 (800)"
+          rating: 1.5
         }
       },
       {
@@ -142,7 +140,7 @@ const Products = [
         price: "₹" + 2900,
         content:
           "Having fancy plants  has been shown to improve air quality",
-          rating: "3.2 (500)"
+          rating: 3.2
         }
       },
       {
@@ -154,8 +152,7 @@ const Products = [
           price: "₹" + 1900,
           content:
             "Having plants in the office has been shown to improve air",
-            rating: "3.5 (80)"
-          }
+            rating: 3.5          }
         },
         {
           _id: 14,
@@ -166,7 +163,7 @@ const Products = [
           price: "₹" + 1500,
           content:
             "Having plants in the balcony has been shown to improve air",
-            rating: "4.2 (850)"
+            rating: 4.2
           }
         },
         {
@@ -178,7 +175,7 @@ const Products = [
           price: "₹" + 1999,
           content:
             "Having plants at front of office has been shown to improve air",
-            rating: "1.5 (800)"
+            rating: 1.5
           }
         },
         {
@@ -190,7 +187,7 @@ const Products = [
           price: "₹" + 2900,
           content:
             "Having fancy plants  has been shown to improve air quality",
-            rating: "3.2 (500)"
+            rating: 3.2
           }
         },{
           _id: 17,
@@ -201,8 +198,7 @@ const Products = [
           price: "₹" + 1900,
           content:
             "Having plants in the office has been shown to improve air",
-            rating: "3.5 (80)"
-          }
+            rating: 3.5          }
         },
         {
           _id: 18,
@@ -213,7 +209,7 @@ const Products = [
           price: "₹" + 1500,
           content:
             "Having plants in the balcony has been shown to improve air",
-            rating: "4.2 (850)"
+            rating: 4.2
           }
         },
         {
@@ -225,7 +221,7 @@ const Products = [
           price: "₹" + 1999,
           content:
             "Having plants at front of office has been shown to improve air",
-            rating: "1.5 (800)"
+            rating: 1.5
           }
         },
         {
@@ -237,7 +233,7 @@ const Products = [
           price: "₹" + 2900,
           content:
             "Having fancy plants  has been shown to improve air quality",
-            rating: "3.2 (500)"
+            rating: 3.2
           }
         },
         {
@@ -249,8 +245,7 @@ const Products = [
             price: "₹" + 1900,
             content:
               "Having plants in the office has been shown to improve air",
-              rating: "3.5 (80)"
-            }
+              rating: 3.5            }
           },
           {
             _id: 22,
@@ -261,7 +256,7 @@ const Products = [
             price: "₹" + 1500,
             content:
               "Having plants in the balcony has been shown to improve air",
-              rating: "4.2 (850)"
+              rating: 4.2
             }
           },
           {
@@ -273,7 +268,7 @@ const Products = [
             price: "₹" + 1999,
             content:
               "Having plants at front of office has been shown to improve air",
-              rating: "1.5 (800)"
+              rating: 1.5
             }
           },
           {
@@ -285,7 +280,7 @@ const Products = [
             price: "₹" + 2900,
             content:
               "Having fancy plants  has been shown to improve air quality",
-              rating: "3.2 (500)"
+              rating: 3.2
             }
           },{
             _id: 25,
@@ -296,8 +291,7 @@ const Products = [
             price: "₹" + 1900,
             content:
               "Having plants in the office has been shown to improve air",
-              rating: "3.5 (80)"
-            }
+              rating: 3.5            }
           },
           {
             _id: 26,
@@ -308,7 +302,7 @@ const Products = [
             price: "₹" + 1500,
             content:
               "Having plants in the balcony has been shown to improve air",
-              rating: "4.2 (850)"
+              rating: 4.2
             }
           },
           {
@@ -320,7 +314,7 @@ const Products = [
             price: "₹" + 1999,
             content:
               "Having plants at front of office has been shown to improve air",
-              rating: "1.5 (800)"
+              rating: 1.5
             }
           },
           {
@@ -332,7 +326,7 @@ const Products = [
             price: "₹" + 2900,
             content:
               "Having fancy plants  has been shown to improve air quality",
-              rating: "3.2 (500)"
+              rating: 3.2
             }
           },
           {
@@ -344,8 +338,7 @@ const Products = [
               price: "₹" + 1900,
               content:
                 "Having plants in the office has been shown to improve air",
-                rating: "3.5 (80)"
-              }
+                rating: 3.5              }
             },
             {
               _id: 30,
@@ -356,7 +349,7 @@ const Products = [
               price: "₹" + 1500,
               content:
                 "Having plants in the balcony has been shown to improve air",
-                rating: "4.2 (850)"
+                rating: 4.2
               }
             },
             {
@@ -368,7 +361,7 @@ const Products = [
               price: "₹" + 1999,
               content:
                 "Having plants at front of office has been shown to improve air",
-                rating: "1.5 (800)"
+                rating: 1.5
               }
             },
             {
@@ -380,7 +373,7 @@ const Products = [
               price: "₹" + 2900,
               content:
                 "Having fancy plants  has been shown to improve air quality",
-                rating: "3.2 (500)"
+                rating: 3.2
               }
             }
     

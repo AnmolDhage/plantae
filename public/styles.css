@@ -87,7 +87,7 @@ body {
 }
 
 ::selection{
-  background: white;
+  background: rgba(70, 139, 91, .27);
 }
 /* HTML Tags End*/
 
@@ -254,7 +254,7 @@ ul {
     border-radius:20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 3) 0px 3px 7px -11px;
     width: 14rem;
-    height: auto;
+    height: 22rem;
   }
   .plantCard-title{
     font-family: 'Montserrat', sans-serif;
@@ -276,7 +276,7 @@ ul {
   .plantCard-Add-to-cart-btn button{
     position: absolute;
     bottom: 0;
-    right: 22%;
+    right: 19%;
     border: none;
     margin: 5%;
     font-family: 'Montserrat', sans-serif;
@@ -290,13 +290,6 @@ ul {
     transition: 1s;
   }
 
-  .plantCard-Add-to-cart-btn p{
-    transition: 1s;
-    opacity: 0.8;
-    padding: 0;
-    margin: 0;
-  }
-
   .plantCard-info p{
     padding:0;
     margin: 0;
@@ -306,9 +299,16 @@ ul {
     transition: 500ms;
   }
 
-  .plantCard-body :hover > .plantCard-info p{
+  .plantCard-body :hover > .plantCard-info p, .plantCard-body :hover > .plantCard-info .p-rating{
     transform:translateY(20%);
     opacity:0;
+  }
+
+  .plantCard-info .p-rating{
+    opacity: 1;
+    position: absolute;
+    bottom: 1.5rem;
+    transition: 500ms;
   }
 
 
@@ -316,10 +316,9 @@ ul {
     opacity: 1;
     transform:translateY(-80%);
   }
-  .plantCard-body :hover > .plantCard-Add-to-cart-btn p{
-    opacity: 0;
-    transform:translateY(50%);
-  }
+
+  
+  
 
 /*Carousel Start*/
 .carousel-indicators {
