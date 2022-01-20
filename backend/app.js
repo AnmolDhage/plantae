@@ -84,7 +84,6 @@ app.route('/api/:key')
         Plant.find({},function (err, foundPlants) {
             if (!err) {
               if (req.params.key === '1234') {
-                console.log(req.params.key);
                 res.send(foundPlants);
               }
             } else {
