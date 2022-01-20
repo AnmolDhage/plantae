@@ -2,6 +2,7 @@ import React from 'react';
 import StoreNav from './StoreNav';
 import ProductCard from './ProductCard';
 import Banner from './Banners.jsx';
+import YourRecentlyViewed from './Your-recently-viewed';
 
 function Store() {
   return (
@@ -9,6 +10,7 @@ function Store() {
       <StoreNav />
       <ProductCard />
       <Banner />
+      <YourRecentlyViewed />
    </div>
    )
 }

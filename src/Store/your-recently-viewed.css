@@ -1,0 +1,31 @@
+.You-Recently-Viewed-Component{
+    width: 68%;
+    min-height: 35rem;
+    /* display:flex; */
+    margin: 1rem auto;
+    border-radius: 4%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+}
+  .Your-Recently-Viewed-Delete button{
+    position:absolute  ;
+    top: 3rem;
+    left: 40rem;
+    border: none;
+    background-color: transparent;
+    color: rgba(255,0,0,0.8);
+    font-size: 0.8rem;
+  }
+  .Your-Recently-Viewed-Heading-Class{
+    font-size: 2rem;
+    padding: 2rem 0 0 3rem;
+    font-weight: 600;
+  }
+  
+  .yourRecentlyViewedDataComponent{
+    
+    /* display: flex; */
+     flex-direction: row; 
+    
+    margin-top: 1rem;
+  }

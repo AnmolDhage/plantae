@@ -20,10 +20,7 @@ function TypeCardComponent() {
           <h1 className='TypeCardSubHeadingh1 paraFont' >You name the Place and We got the Right Plant for it.</h1>
         </div>
         <div className='CardHolder'>
-          {CardDetails.map(CreateCard => {
-            <li key={CardDetails._id}>
-            </li>
-          })}
+          {CardDetails.map(CreateCard)}
         </div>
       </div>
     </section>
