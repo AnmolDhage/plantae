@@ -3,21 +3,20 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div id="header" className="primary-header nav-flex">
+    <div id="header" className="primary-header">
       <nav>
-        <ul id="primary-navigation" className="primary-navigation nav-flex">
-          <li className="active">
+        <ul className="primary-navigation nav-flex">
+          <li>
             <a>
-              <Link to="/">About</Link>
+              <Link to="/">About us</Link>
             </a></li>
           <li >
             <a>
               <Link to="/store">Store</Link>
             </a></li>
           <li>
-            <a href="#">
-              Sign In
-            </a></li>
+            <a>Sign-In</a>
+          </li>
         </ul>
 
       </nav>

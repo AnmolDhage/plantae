@@ -18,7 +18,7 @@ function AboutAllPlantCards() {
     return (
       <div className="AboutAllPlantCards">
 
-        {Products.slice(0,4).map((product) => {
+        {Products.slice(0, 4).map((product) => {
           return <>
             <PlantCard
               key={product.id}
@@ -44,38 +44,38 @@ function AboutAllPlantCards() {
       <Carousel>
         <Carousel.Item>
           <div className="AboutAllPlantCards">
-            {Products.slice(0,3).map((product) => {
+            {Products.slice(0, 3).map((product) => {
               return <>
-            <PlantCard
-              key={product.id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+                <PlantCard
+                  key={product.id}
+                  img={product.img}
+                  type={product.type}
+                  title={product.title}
+                  price={product.price}
+                  content={product.content}
+                  rating={product.rating}
 
-            />
-          </>
+                />
+              </>
             })}
           </div>
 
         </Carousel.Item>
         <Carousel.Item>
           <div className="AboutAllPlantCards">
-          {Products.slice(3,6).map((product) => {
+            {Products.slice(3, 6).map((product) => {
               return <>
-            <PlantCard
-              key={product.id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+                <PlantCard
+                  key={product.id}
+                  img={product.img}
+                  type={product.type}
+                  title={product.title}
+                  price={product.price}
+                  content={product.content}
+                  rating={product.rating}
 
-            />
-          </>
+                />
+              </>
             })}
           </div>
 
@@ -90,57 +90,57 @@ function AboutAllPlantCards() {
       <Carousel>
         <Carousel.Item>
           <div className="AboutAllPlantCards">
-          {Products.slice(0,2).map((product) => {
+            {Products.slice(0, 2).map((product) => {
               return <>
-            <PlantCard
-              key={product.id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+                <PlantCard
+                  key={product.id}
+                  img={product.img}
+                  type={product.type}
+                  title={product.title}
+                  price={product.price}
+                  content={product.content}
+                  rating={product.rating}
 
-            />
-          </>
+                />
+              </>
             })}
           </div>
 
         </Carousel.Item>
         <Carousel.Item>
           <div className="AboutAllPlantCards">
-          {Products.slice(2,4).map((product) => {
+            {Products.slice(2, 4).map((product) => {
               return <>
-            <PlantCard
-              key={product.id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+                <PlantCard
+                  key={product.id}
+                  img={product.img}
+                  type={product.type}
+                  title={product.title}
+                  price={product.price}
+                  content={product.content}
+                  rating={product.rating}
 
-            />
-          </>
+                />
+              </>
             })}
           </div>
 
         </Carousel.Item>
         <Carousel.Item>
           <div className="AboutAllPlantCards">
-          {Products.slice(4,6).map((product) => {
+            {Products.slice(4, 6).map((product) => {
               return <>
-            <PlantCard
-              key={product.id}
-              img={product.img}
-              type={product.type}
-              title={product.title}
-              price={product.price}
-              content={product.content}
-              rating={product.rating}
+                <PlantCard
+                  key={product.id}
+                  img={product.img}
+                  type={product.type}
+                  title={product.title}
+                  price={product.price}
+                  content={product.content}
+                  rating={product.rating}
 
-            />
-          </>
+                />
+              </>
             })}
           </div>
 

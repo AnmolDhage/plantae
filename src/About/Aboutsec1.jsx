@@ -15,9 +15,9 @@ function Aboutsec1() {
     <section id="about" className="about">
       <Navbar />
       <div className="aboutSec1 flex">
-        <h1 className="title">
+        <div className="title">
           <span className="title-1">Plan</span><span className="title-2">tae.</span>
-        </h1>
+        </div>
         <h2 className="subHeader aboutContent">
           Who are we?
           <p className="paraFont">
