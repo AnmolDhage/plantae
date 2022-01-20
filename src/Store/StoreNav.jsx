@@ -67,7 +67,7 @@ function StoreNav() {
           <div className="list-grps">New Arrivals</div>
           <div className="list-grps Best-Sellers">Best Sellers</div>
 
-
+          <div></div>
         </div>
       </div>
     )
