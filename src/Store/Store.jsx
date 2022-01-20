@@ -11,8 +11,8 @@ function Store() {
       <ProductCard />
       <Banner />
       <YourRecentlyViewed />
-   </div>
-   )
+    </div>
+  )
 }
 
 export default Store;
